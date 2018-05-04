@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple Budget Application</title>
+		<script type="text/javascript" src="{{ url_for('static', filename='script.js') }}"></script>
+	</head>
+	<body>
+		<table id="theTable">
+		</table>
+		<h3> Add new Category, followed by the amount you want the budget to be: </h3>
+		<form name="theForm">
+			<input type="text" id="newDo" name="" value="" />
+			<input type="text" id="newDo4" name="" value="" />
+			<input type="button" id="theButton" value="Add" />
+		</form>
+		</br>
+		</br>
+		<h3> Purchase History (Most recent for each Category): </h3>
+		<table id="theTable2">
+		</table>
+		<h3> Enter the Purchase Amount followed by which Category it is in: </h3>
+		<form name="purchaseAmount">
+			<input type="text" id="newDo2" name="" value="" />
+			<input type="text" id="newDo3" name="" value="" />
+			<input type="button" id="theButton2" value="Add" />
+		</form>
+	</body>
+</html>
+
